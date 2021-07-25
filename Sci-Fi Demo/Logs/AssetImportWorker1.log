@@ -1,0 +1,499 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 17134.648; Version 1803; 64bit' Language: 'en' Physical Memory: 8139 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/3D + game development/game development/Unity Projects/Sci-Fi Demo/Sci-Fi-Demo/Sci-Fi Demo
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+58660
+Successfully changed project path to: D:/3D + game development/game development/Unity Projects/Sci-Fi Demo/Sci-Fi-Demo/Sci-Fi Demo
+D:/3D + game development/game development/Unity Projects/Sci-Fi Demo/Sci-Fi-Demo/Sci-Fi Demo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 77.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/3D + game development/game development/Unity Projects/Sci-Fi Demo/Sci-Fi-Demo/Sci-Fi Demo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   
+    VRAM:     128 MB
+    Driver:   9.17.10.4229
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003957 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 72.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.983 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.108 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1449 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.5 MB.
+System memory in use after: 69.6 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 3.262378 ms (FindLiveObjects: 0.213297 ms CreateObjectMapping: 0.082999 ms MarkObjects: 2.814811 ms  DeleteObjects: 0.148594 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(e2801491bf47393429109638bb06545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e2801491bf47393429109638bb06545a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075aa1ca9aebd9e3979083fe5966b194') in 0.017477 seconds
+  Import took 0.021728 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+PlayerSettings Validation: Requested build target group (20) doesn't exist; #define symbols for scripting won't be added.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
+UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
+UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
+
+PlayerSettings Validation: Requested build target group (22) doesn't exist; #define symbols for scripting won't be added.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
+UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
+UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
+
+PlayerSettings Validation: Requested build target group (17) doesn't exist; #define symbols for scripting won't be added.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PlayerSettings:SetScriptingDefineSymbolsForGroup (UnityEditor.BuildTargetGroup,string)
+UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:SetEnabled (string,bool,bool) (at Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:128)
+UnityStandardAssets.CrossPlatformInput.Inspector.CrossPlatformInitialize:.cctor () (at Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs:22)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs line 128]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.420 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1439 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.2 MB.
+System memory in use after: 69.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 6.799634 ms (FindLiveObjects: 0.811244 ms CreateObjectMapping: 0.110665 ms MarkObjects: 5.659073 ms  DeleteObjects: 0.215082 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4953.012672 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Models/SecurityRoomEnvironment.FBX
+  artifactKey: Guid(6544875a22773ee408686dd0c78d9c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Models/SecurityRoomEnvironment.FBX using Guid(6544875a22773ee408686dd0c78d9c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710fc562d92bb14c7e437de31a023b72') in 1.966496 seconds
+  Import took 1.974046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityFloorGlow.mat
+  artifactKey: Guid(195f2b6dedee1a2488f5f56a87e95909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityFloorGlow.mat using Guid(195f2b6dedee1a2488f5f56a87e95909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe86040eb5d3fde20c3858999bf2faa2') in 0.182318 seconds
+  Import took 0.187759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorTileSand.mat
+  artifactKey: Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorTileSand.mat using Guid(3a48947a76978074795eb630980e7e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86d012c28f1bef7e4849dcf98373d39') in 0.363169 seconds
+  Import took 0.368155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/SecurityRoom/FloorLight.tif
+  artifactKey: Guid(d0063a7e961263b4d8c43f7dc163ef52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/SecurityRoom/FloorLight.tif using Guid(d0063a7e961263b4d8c43f7dc163ef52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e836917dfa614f572346fb9bbb07ffe7') in 0.066171 seconds
+  Import took 0.070904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Models/MarketEnvironment.FBX
+  artifactKey: Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Models/MarketEnvironment.FBX using Guid(ae23c9eafd0c4d84690e5f3bddaf54e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e87d01adf6ddf4ab2f51df14d4a979') in 1.044058 seconds
+  Import took 1.053676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/Market/MarketFloorMetalAlbedo.tif
+  artifactKey: Guid(a600502155988e64f9d45b079ad18278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/Market/MarketFloorMetalAlbedo.tif using Guid(a600502155988e64f9d45b079ad18278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7d9a404e727989aeb5d8f1495313b5') in 0.054568 seconds
+  Import took 0.081853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorMetal.mat
+  artifactKey: Guid(d5c39045660bc764a8ef604888042b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Market/MarketFloorMetal.mat using Guid(d5c39045660bc764a8ef604888042b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b89d4430e6981c44a3f5b86804544ac') in 0.096571 seconds
+  Import took 0.106786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/Market/MarketFloorTileSandAlbedo.tif
+  artifactKey: Guid(90d75d244446a9644888b0a0305f81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/Market/MarketFloorTileSandAlbedo.tif using Guid(90d75d244446a9644888b0a0305f81f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74913f4e52bf8b1b4cc68e597a35df9') in 0.032340 seconds
+  Import took 0.037449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/Market/MarketFloorTileSandAlbedo 1.tif
+  artifactKey: Guid(89876c2014fc44dcb90c0143a0cbe7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/Market/MarketFloorTileSandAlbedo 1.tif using Guid(89876c2014fc44dcb90c0143a0cbe7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f89444372d2c01692465323fca912eb') in 0.086696 seconds
+  Import took 0.092050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.996595 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Models/Materials/SecurityRoom_Floor.mat
+  artifactKey: Guid(d66f730824bd0e74ab7e23ef6feaf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Models/Materials/SecurityRoom_Floor.mat using Guid(d66f730824bd0e74ab7e23ef6feaf084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc3febb3e90cab7705bdbe1233ae452') in 0.058051 seconds
+  Import took 0.063775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomFloor.mat
+  artifactKey: Guid(6f66348a4070a4c4fb04de32986786c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomFloor.mat using Guid(6f66348a4070a4c4fb04de32986786c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578ad863c9a54c853e6968bb32e1f6a2') in 0.048204 seconds
+  Import took 0.053014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117711 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/SecurityRoom/SecurityRoomFloorAlbedo.tif
+  artifactKey: Guid(1bcc788d0e1020646bd703ed8ecdd29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Textures/Environment/SecurityRoom/SecurityRoomFloorAlbedo.tif using Guid(1bcc788d0e1020646bd703ed8ecdd29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb479141520c6e06aabc15fabad2f964') in 0.058672 seconds
+  Import took 0.065319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomFloorLight.mat
+  artifactKey: Guid(05230aa6fed8282418e8584cd0ab0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomFloorLight.mat using Guid(05230aa6fed8282418e8584cd0ab0906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a622d214f465bcd82467164629dcd2d') in 0.059189 seconds
+  Import took 0.065707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 323.484451 seconds.
+  path: Assets/New Lighting Settings.lighting
+  artifactKey: Guid(a56930dd1fd18ed42961f1f6bfda1725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Lighting Settings.lighting using Guid(a56930dd1fd18ed42961f1f6bfda1725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6442fdca571eb39d307e6937f3868aec') in 0.025306 seconds
+  Import took 0.031276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.811312 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramLight.mat
+  artifactKey: Guid(bdb6658887a0cff41bb401d598c25c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramLight.mat using Guid(bdb6658887a0cff41bb401d598c25c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2128835f1380e544a920bb31cfd8dd4') in 0.075239 seconds
+  Import took 0.080929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomScreen.mat
+  artifactKey: Guid(cd56fd16d2fb5bf4aaf73ff3cb098968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomScreen.mat using Guid(cd56fd16d2fb5bf4aaf73ff3cb098968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2264893c264ed2eb299d10cf245f859') in 0.066680 seconds
+  Import took 0.562456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallVents.mat
+  artifactKey: Guid(bb6df24b93c940a4da548a5cd5049cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallVents.mat using Guid(bb6df24b93c940a4da548a5cd5049cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3297c1366769d68f6a4805f8a695e301') in 0.049867 seconds
+  Import took 0.056989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000655 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomMagazines.mat
+  artifactKey: Guid(5b59a3babc1a0264f9a031cd36d8eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomMagazines.mat using Guid(5b59a3babc1a0264f9a031cd36d8eec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32445782a1356894e10f3f0a049e400b') in 0.077212 seconds
+  Import took 0.082317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomPotPlant.mat
+  artifactKey: Guid(a914eadc484be8c46959df648c426130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomPotPlant.mat using Guid(a914eadc484be8c46959df648c426130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca31a2db1315e46921b5e0faccc6ce84') in 0.079465 seconds
+  Import took 0.084896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsTrim.mat
+  artifactKey: Guid(ff3385cc426b6ee47adfa876571fcafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsTrim.mat using Guid(ff3385cc426b6ee47adfa876571fcafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02c7a3ae02d4668639a8d5c08162133') in 0.113603 seconds
+  Import took 0.119990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomLogo.mat
+  artifactKey: Guid(1d680551764da7343a0dcc6d8221791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomLogo.mat using Guid(1d680551764da7343a0dcc6d8221791e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d704cf68a7dc9fecb2905bcbae0c647') in 0.745200 seconds
+  Import took 0.749444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsRed.mat
+  artifactKey: Guid(e510d81a6cef85c46bf8fcf18f5a2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsRed.mat using Guid(e510d81a6cef85c46bf8fcf18f5a2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b9eefeb5a7ce96e1ff0e34b6379720') in 0.053310 seconds
+  Import took 0.059355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomTrim.mat
+  artifactKey: Guid(02f83460bcf46fc40a07b7eec5d9af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomTrim.mat using Guid(02f83460bcf46fc40a07b7eec5d9af6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be0bffa249b969fd877c127cf3147ce') in 0.071850 seconds
+  Import took 0.078250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SleepyZ.mat
+  artifactKey: Guid(1a154997a08254f4ab6fb216e582bc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SleepyZ.mat using Guid(1a154997a08254f4ab6fb216e582bc17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf045b230002bf48c248ab3a90a6be8') in 0.148661 seconds
+  Import took 0.153619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomPotPlantLeaf.mat
+  artifactKey: Guid(15b1c16e173ddda45b74fc79dcb02bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomPotPlantLeaf.mat using Guid(15b1c16e173ddda45b74fc79dcb02bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a5eb6deaca4ea57eea74e90c12373f') in 0.357308 seconds
+  Import took 0.362297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Game/Effects/Trail.mat
+  artifactKey: Guid(928c4cd2df43e4b48b0f8c364c809f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Effects/Trail.mat using Guid(928c4cd2df43e4b48b0f8c364c809f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8fec5f11a09c95298c85502cdfae97') in 0.083805 seconds
+  Import took 0.089422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsTrimLight.mat
+  artifactKey: Guid(824b1fb490125bf478e2e6d8006f6a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsTrimLight.mat using Guid(824b1fb490125bf478e2e6d8006f6a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6c6c365bd3faf6352647121db32dc8') in 0.072233 seconds
+  Import took 0.077533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Game/Skybox/Materials/Skybox_Sunset.mat
+  artifactKey: Guid(4067de1a02072244798361060c5e7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Materials/Skybox_Sunset.mat using Guid(4067de1a02072244798361060c5e7325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12928458622563a1565716ae047ad84') in 6.028291 seconds
+  Import took 6.040006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomDesk.mat
+  artifactKey: Guid(e3642bc2b1be7f34fbe8086b1060ba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomDesk.mat using Guid(e3642bc2b1be7f34fbe8086b1060ba8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acbaf64e4fb9112b29a6529d0b76b7be') in 0.106261 seconds
+  Import took 0.110849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Western Props/Models/Wooden Crate/Materials/Wooden_Crate.mat
+  artifactKey: Guid(b0f94b4f453fe694390c7390253f3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Western Props/Models/Wooden Crate/Materials/Wooden_Crate.mat using Guid(b0f94b4f453fe694390c7390253f3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b392932201a318eea4acf4bc3207aff') in 0.545267 seconds
+  Import took 0.549761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Characters/SharkmanMaterial.mat
+  artifactKey: Guid(d788c05ebea28de4db00723fccb2e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/Characters/SharkmanMaterial.mat using Guid(d788c05ebea28de4db00723fccb2e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af44af251b8345313968472b4f64cd92') in 0.176915 seconds
+  Import took 0.181398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHolograms.mat
+  artifactKey: Guid(76f6aaeeec6d36b4f884b244370f05cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHolograms.mat using Guid(76f6aaeeec6d36b4f884b244370f05cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d988b70742e6cc161f8b9caebc520d') in 0.034784 seconds
+  Import took 0.039793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomVent.mat
+  artifactKey: Guid(672c629381309834cb348cf9b63f30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomVent.mat using Guid(672c629381309834cb348cf9b63f30ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44b95c73bea3fb0eb7a1613f7ed392b') in 0.043646 seconds
+  Import took 0.048948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramLight.mat
+  artifactKey: Guid(bdb6658887a0cff41bb401d598c25c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramLight.mat using Guid(bdb6658887a0cff41bb401d598c25c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2128835f1380e544a920bb31cfd8dd4') in 0.028223 seconds
+  Import took 0.032976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Western Props/Models/Wooden Crate/Materials/Wooden_Crate_Cracked.mat
+  artifactKey: Guid(66740e5b2fdc35444a4aa5eff60832bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Western Props/Models/Wooden Crate/Materials/Wooden_Crate_Cracked.mat using Guid(66740e5b2fdc35444a4aa5eff60832bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf9d5afec06cdbdc3e3d6519c44cf45') in 0.104079 seconds
+  Import took 0.108356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomScreenBorder.mat
+  artifactKey: Guid(50b075c92c0718d43ba136105f9dd1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomScreenBorder.mat using Guid(50b075c92c0718d43ba136105f9dd1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5a0f3a70a650c79d43af805c6343b4') in 0.098669 seconds
+  Import took 0.104005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramsDNA.mat
+  artifactKey: Guid(1bc37cd6e59f7d043b4f6da0dbd4ab28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramsDNA.mat using Guid(1bc37cd6e59f7d043b4f6da0dbd4ab28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4de0322736ced7bba62bf2c8285d0df') in 0.044914 seconds
+  Import took 0.049258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramLight02.mat
+  artifactKey: Guid(237e59587b8f1c641a0b736a82a2f342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomHologramLight02.mat using Guid(237e59587b8f1c641a0b736a82a2f342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcad63bc313a823458dca1dcddc4bd84') in 0.034528 seconds
+  Import took 0.039443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomFloorLightGlow.mat
+  artifactKey: Guid(3bfa74688e01fc041924a6c5670775d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomFloorLightGlow.mat using Guid(3bfa74688e01fc041924a6c5670775d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837f8a37fb1670341655b5aba6e95998') in 0.034324 seconds
+  Import took 0.052566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsGrey.mat
+  artifactKey: Guid(c663c1ef3240d9b419354431013f17fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomWallsGrey.mat using Guid(c663c1ef3240d9b419354431013f17fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e5c892085a84f8b3cded4cb04dca49') in 0.044893 seconds
+  Import took 0.049119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Models/Materials/SecurityRoom_Desk.mat
+  artifactKey: Guid(e51e76f87256b8e4e95e0be76bfab120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Models/Materials/SecurityRoom_Desk.mat using Guid(e51e76f87256b8e4e95e0be76bfab120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12df269fb16d7abe5c4caa60e1679644') in 0.025274 seconds
+  Import took 0.041659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Sci-Fi Weapons/Base Pack/Sniper/Materials/Sniper_04.mat
+  artifactKey: Guid(c093ccf3e4be9324b9141c5908f14b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Sci-Fi Weapons/Base Pack/Sniper/Materials/Sniper_04.mat using Guid(c093ccf3e4be9324b9141c5908f14b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61d3d95ad2e81422ee7e2cf7e7bd1a1') in 0.692639 seconds
+  Import took 0.697320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Game/Skybox/Materials/Skybox_Daytime.mat
+  artifactKey: Guid(71f14a2d79f732f4d9893ef1b911f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Materials/Skybox_Daytime.mat using Guid(71f14a2d79f732f4d9893ef1b911f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26f6c777fc8bccc2e886fa9bbaa06d9') in 5.447762 seconds
+  Import took 5.458462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000759 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomForeGroundDetail.mat
+  artifactKey: Guid(45b8eaf0be0364a40b0b46fe8679696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomForeGroundDetail.mat using Guid(45b8eaf0be0364a40b0b46fe8679696f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e845af07b454d2c3ad37341914180a') in 0.118359 seconds
+  Import took 0.124597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomSecurityGate.mat
+  artifactKey: Guid(268ea185a9855d647be0c7af6b9c4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Level_Dont_Touch/Environment_Model/Materials/SecurityRoom/SecurityRoomSecurityGate.mat using Guid(268ea185a9855d647be0c7af6b9c4bef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17738be52bba559ce7fa52cdbd046c96') in 0.052661 seconds
+  Import took 0.058740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.599201 seconds.
+  path: Assets/Game/Skybox/Materials/Skybox_Daytime.mat
+  artifactKey: Guid(71f14a2d79f732f4d9893ef1b911f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Skybox/Materials/Skybox_Daytime.mat using Guid(71f14a2d79f732f4d9893ef1b911f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26f6c777fc8bccc2e886fa9bbaa06d9') in 4.007722 seconds
+  Import took 4.018644 seconds .
+
