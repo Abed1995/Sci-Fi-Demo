@@ -9,8 +9,21 @@ public class UiManager : MonoBehaviour
 
     [SerializeField]
      Text ammoText;
+
+    [SerializeField]
+    GameObject coinImage;
    public void UpdateAmmo(int count)
     {
         ammoText.text = "Ammo : " + count;
+    }
+
+   public void ShowCoinInventory()
+    {
+        coinImage.SetActive(true);
+    }
+
+    public void HideCoinInvetory()
+    {
+        coinImage.SetActive(false);
     }
 }
