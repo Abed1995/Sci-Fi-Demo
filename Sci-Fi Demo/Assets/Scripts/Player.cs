@@ -84,7 +84,11 @@ public class Player : MonoBehaviour
         particleEffects.SetActive(true);
 
         GameObject hitMarker = Instantiate(hitMarkerPrefab, hitInfo.point, Quaternion.LookRotation(hitInfo.normal)) as GameObject;
-
+        Destructable craft = hitInfo.transform.GetComponent<Destructable>();
+        if (craft !=null)
+        {
+            craft.DestroyCraft();
+        }
         currentAmmo--;
         uiManager.UpdateAmmo(currentAmmo);
 
